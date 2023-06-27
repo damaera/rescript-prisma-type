@@ -1,10 +1,13 @@
 {
   "name": "rescript-prisma-type",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript build",
     "watch": "rescript build -w"
+  },
+  "bin": {
+    "rescript-prisma-type": "src/index.mjs"
   },
   "keywords": [
     "ReScript"
